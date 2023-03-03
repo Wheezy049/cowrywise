@@ -17,8 +17,8 @@ header {
   justify-content: space-around;
   align-items: center;
   height: 100px;
-  background-color: #fff;
-  box-shadow: 0 0 5px rgb(200, 200, 200);
+  background-color: #f4f8fc;
+  /* box-shadow: 0 0 5px rgb(200, 200, 200); */
 }
 .logo {
   width: 130px;
