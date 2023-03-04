@@ -133,6 +133,43 @@ header {
 }
 
 /* CONTENT */
+.journey{
+  display: flex;
+  margin: 20px;
+}
+.rich{
+  margin-top: 100px;
+}
+.rich h1{
+font-size: 7rem;
+color: #082552;
+font-weight: 700;
+margin-bottom: 16px;
+}
+.rich span{
+  font-weight: 400;
+}
+.rich p{
+  font-size: 2.8rem;
+  color: #082552;
+  margin-bottom: 16px;
+}
+.rich button{
+  background-color: #0066f5;
+  color: white;
+  font-size: 2rem;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+.row-heading{
+  margin: 80px;
+  color: #082552;
+  font-size: 6rem;
+  font-weight: 600;
+}
+
 .device{
   display: flex;
   justify-content: space-around;
@@ -578,8 +615,42 @@ hr {
   }
   
   /* CONTENT */
+.journey{
+  display: block;
+}
+
 .device{
   display: block;
+}
+.image1{
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+.device-heading h1{
+  font-size: 4rem;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left:50px ;
+}
+.list h2{
+  margin-right: 30px;
+}
+#head2{
+  margin-right: 300px;
+}
+#head3{
+  margin-right: 300px;
+}
+#para3{
+  text-align: left;
+}
+.list-btn{
+  margin-left: 100px;
 }
 
 .security{
