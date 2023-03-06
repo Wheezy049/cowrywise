@@ -6,6 +6,7 @@
   text-decoration: none;
   list-style-type: none;
 }
+/* HEADER */
 body {
   background-color: #f4f8fc;
   font-family: Arial, Helvetica, sans-serif;
@@ -14,6 +15,7 @@ body {
   padding: 14px 650px;
   width: 100%;
   background-color: #ffe4ea;
+  font-size: 1.5rem;
 }
 .advert span{
     margin-right: 10px;
@@ -100,6 +102,7 @@ header {
   position: absolute;
   padding: 1.2rem 1rem;
   top: 4rem;
+  z-index: 2;
 }
 .sublist1 {
   display: flex;
@@ -152,6 +155,69 @@ header {
 }
 
 /* CONTENT */
+#big-cta{
+  display: flex;
+  justify-content: space-between;
+}
+.testimony{
+  margin-top: 100px;
+height: 1200px;
+width: 550px;
+background-color: rgb(244, 229, 210);
+}
+.testimony video{
+  margin-top: 100px;
+  position: absolute;
+  height: 900px;
+  margin-left: 100px;
+
+}
+.testimony img{
+  position: relative;
+  margin-top:1050px ;
+  margin-left: 10px;
+}
+.wura{
+  width: 500px;
+  height: 300px;
+  background-color: #fff;
+  position: absolute;
+  margin-top: -360px;
+  margin-left: 300px;
+  padding: 30px;
+  font-size: 1.4rem;
+  color: #6c82a3;
+}
+.cta h1{
+  color: #082552;
+  margin-right: 200px;
+  margin-top: 100px;
+  font-size: 8rem;
+  text-align: left;
+}
+.cta p{
+  color: #082552;
+  font-size: 4rem;
+  margin-right: 70px;
+}
+.cta input{
+  background-color: #f4f8fc;
+  color: #082552;
+  border-radius: 10px;
+  margin-top: 80px;
+  border: 1px solid rgba(8, 37, 82, 0.3);
+  padding: 15px;
+}
+.cta button{
+  background-color: #0066f5;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 15px 18px;
+  margin-left: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
 .journey{
   display: flex;
   justify-content: space-between;
@@ -252,6 +318,31 @@ margin-bottom: 16px;
   color: #082552;
   font-size: 6rem;
   font-weight: 600;
+}
+.big-row{
+  width: 200%;
+  display: flex;
+  gap: 2rem;
+  margin-left: 50px;
+  animation: row 15s infinite ;
+}
+.row{
+  background-color: white;
+  height: 400px;
+  width: 650px;
+  border-radius: 30px;
+  border: 1px solid #0066f5;
+  color: #0066f5;
+  font-size: 4rem;
+  padding: 30px;
+}
+@keyframes row {
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-2100px);
+  }
 }
 
 .device{
@@ -559,10 +650,10 @@ input{
   margin-right: -300px;
   text-align: left;
 }
-.one {
+.big-one {
   display: flex;
 }
-.two {
+.big-two {
   display: flex;
 }
 section p {
@@ -702,6 +793,10 @@ hr {
   }
   
   /* CONTENT */
+#big-cta{
+display: block;
+}
+
 .journey{
   display: block;
 }
@@ -865,10 +960,10 @@ input{
 }
 
   /* FOOTER */
-  .one {
+  .big-one {
     display: block;
   }
-  .two {
+  .big-two {
     display: block;
   }
   .section-1,
