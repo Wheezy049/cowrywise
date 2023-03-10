@@ -903,7 +903,7 @@ display: block;
     grid-template-rows: auto;
     gap:  2rem;
     margin: 2rem;
-  }
+}
 .box{
     grid-row: auto;
     grid-column: auto;
@@ -1007,20 +1007,22 @@ input{
 @media screen and (max-width:480px)  {
   /* HEADER */
   .advert{
-    padding: 10px 5px;
-    font-size: 1rem;
+    padding: 8px 20px;
+    font-size: 0.8rem;
   }
   .advert span{
-    margin-right: 7px;
+    font-size: 8px;
+    margin-right: 5px;
 }
   header {
     overflow: hidden;
+    margin-top: 20px;
   }
   .checkbtn {
     color: black;
     font-size: 30px;
     float: right;
-    margin-left: 15px;
+    margin-left: 5px;
     cursor: pointer;
     display: block;
   }
@@ -1035,8 +1037,8 @@ input{
     display: none;
   }
   .logo {
-    width: 120px;
-    height: 40px;
+    width: 80px;
+    height: 25px;
   }
   .mainlist {
     position: absolute;
@@ -1105,12 +1107,12 @@ input{
   /* CONTENT */
 #big-cta{
 display: block;
+margin-left:5px;
 }
 .cta h1{
   color: #082552;
-  margin-right: 100px;
-  margin-top: 100px;
-  font-size: 5rem;
+  margin-top: 60px;
+  font-size: 4rem;
   text-align: left;
 }
 .cta p{
@@ -1122,7 +1124,7 @@ display: block;
   background-color: #f4f8fc;
   color: #082552;
   border-radius: 10px;
-  margin-top: 80px;
+  margin-top: 50px;
   border: 1px solid rgba(8, 37, 82, 0.3);
   padding: 15px;
 }
@@ -1145,21 +1147,19 @@ display: block;
 .testimony{
   margin-top: 100px;
 height: 800px;
-width: 400px;
+width: 300px;
 background-color: rgb(244, 229, 210);
 }
 .testimony video{
   margin-top: 100px;
   position: absolute;
   height: 600px;
-  margin-left: 30px;
+  margin-left: 10px;
   width: 400px;
 }
 .testimony img{
   position: relative;
-  margin-top:800px ;
-  margin-left: 0;
-  overflow: hidden;
+  margin-top: 800px;
 }
 .wura{
   width: 300px;
@@ -1167,7 +1167,7 @@ background-color: rgb(244, 229, 210);
   background-color: #fff;
   position: absolute;
   margin-top: -450px;
-  margin-left: 100px;
+  margin-left: 95px;
   padding: 10px;
   font-size: 1.1rem;
   color: #6c82a3;
@@ -1261,7 +1261,6 @@ background-color: rgb(244, 229, 210);
   margin-left: 30px;
 }
 #para3{
-  /* text-align: left; */
   margin-left: -40px;
 }
 .list-btn{
@@ -1271,14 +1270,14 @@ background-color: rgb(244, 229, 210);
 .security{
   background-image: none;
   overflow: hidden;
-  height: 1600px;
+  height: 2100px;
 }
 .security-item h1{
   font-size: 2rem;
   margin-bottom: 20px;
 }
 .security-item p{
-  font-size: 25px;
+  font-size: 22px;
   margin-bottom: 35px;
   line-height: 1.5;
   width: 80%;
@@ -1288,11 +1287,11 @@ background-color: rgb(244, 229, 210);
   margin: 30px;
 }
 .security-head h1{
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 .security-head p{
-    padding-top: 20px;
-  font-size: 1.2rem;
+    padding-top: 15px;
+  font-size: 1rem;
   line-height: 1.4;
 }
 .security-head{
@@ -1300,13 +1299,13 @@ background-color: rgb(244, 229, 210);
 }
 .assets{
   left: 0;
-  top: 565px;
+  top: 365px;
 }
 .regulatory{
-  top: 290px;
+  top: 720px;
 }
 .base-in{
-  top: 850px;
+  top: 1100px;
   left: 0;
 }
 
@@ -1317,8 +1316,6 @@ background-color: rgb(244, 229, 210);
 .big-box{
     grid-template-columns: 1fr;
     grid-template-rows: auto;
-    gap:  2rem;
-    margin: 2rem;
   }
 .box{
     grid-row: auto;
@@ -1332,24 +1329,30 @@ background-color: rgb(244, 229, 210);
 }
 .review{
   margin-top: -20px;
-  margin-left: 8px;
+  margin-left: 0;
+}
+.review img{
+  width: 20px;
 }
 .review-head{
-  margin-top: -34px;
-  margin-left: 30px;
+  margin-top: -27px;
+  margin: 15px;
+  font-size: 1.7rem;
 }
 .review-para{
   line-height: 1.5;
+  padding: 10px;
 }
 .box{
-  height: 500px;
+  height: 700px;
 }
 
   .investing{
   width: 90%;
-  height: 400px;
+  height: 430px;
   display: block;
   text-align: left;
+  overflow: hidden;
 }
 #free{
   font-size: 3rem;
@@ -1404,7 +1407,7 @@ input{
     margin-right: 15px;
   }
   .social {
-    width: 20px;
+    width: 15px;
   }
   section h3 {
     margin-bottom: 15px;
