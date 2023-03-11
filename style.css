@@ -389,6 +389,12 @@ margin-bottom: 16px;
   background-color: #0066f5;
   margin-left: 15px;
 }
+#head1{
+  margin-right: 350px;
+}
+#para3{
+  margin-left: 330px;
+}
 
 
 .slide-main-text{
@@ -705,7 +711,7 @@ hr {
 @media screen and (max-width: 896px) {
   /* HEADER */
   .advert{
-    padding: 14px 120px;
+    padding: 14px 50px;
   }
   .cta1{
     display: none;
@@ -720,7 +726,7 @@ hr {
     color: black;
     font-size: 30px;
     float: right;
-    margin-left: 15px;
+    margin-right: -35px;
     cursor: pointer;
     display: block;
   }
@@ -805,6 +811,9 @@ hr {
   /* CONTENT */
 #big-cta{
 display: block;
+}
+.wura{
+  margin-left: 240px;
 }
 
 .journey{
@@ -1055,7 +1064,7 @@ input{
     color: black;
     font-size: 30px;
     float: right;
-    margin-left: 5px;
+    margin-right: -15px;
     cursor: pointer;
     display: block;
   }
@@ -1187,20 +1196,21 @@ background-color: rgb(244, 229, 210);
   margin-top: 100px;
   position: absolute;
   height: 600px;
-  margin-left: 10px;
+  margin-left: -10px;
   width: 400px;
 }
 .testimony img{
   position: relative;
   margin-top: 800px;
+  overflow: hidden;
 }
 .wura{
   width: 300px;
-  height: 300px;
+  height: 270px;
   background-color: #fff;
   position: absolute;
-  margin-top: -450px;
-  margin-left: 95px;
+  margin-top: -420px;
+  margin-left: 75px;
   padding: 10px;
   font-size: 1.1rem;
   color: #6c82a3;
@@ -1276,7 +1286,9 @@ background-color: rgb(244, 229, 210);
   margin-right: 18px;
 }
 #head1{
-  margin-right: 100px;
+  margin-left: 40px;
+  position: absolute;
+  width: 70%;
 }
 #number1{  
   width: 100%;
@@ -1294,7 +1306,7 @@ background-color: rgb(244, 229, 210);
   margin-left: 30px;
 }
 #para3{
-  margin-left: -40px;
+  margin-left: 40px;
 }
 .list-btn{
   margin-left: 50px;
