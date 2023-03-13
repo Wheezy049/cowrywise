@@ -1075,9 +1075,6 @@ input{
   #check {
     display: none;
   }
-  .mainlist {
-    display: none;
-  }
   .login,
   .signup {
     display: none;
