@@ -1200,6 +1200,7 @@ margin-left:5px;
 height: 800px;
 width: 280px;
 background-color: rgb(244, 229, 210);
+overflow: hidden;
 }
 .testimony video{
   margin-top: 100px;
