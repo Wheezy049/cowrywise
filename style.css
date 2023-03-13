@@ -99,7 +99,7 @@ header {
   padding: 40px;
   position: absolute;
   padding: 1.2rem 1rem;
-  top: 7.8rem;
+  top: 6.34rem;
   z-index: 2;
 }
 .sublist1 {
@@ -1070,6 +1070,7 @@ input{
     margin-right: -15px;
     cursor: pointer;
     display: block;
+    z-index: 2;
   }
   #check {
     display: none;
@@ -1084,19 +1085,21 @@ input{
   .logo {
     width: 80px;
     height: 25px;
+    margin-left: -30px;
   }
   .mainlist {
     position: absolute;
     width: 100%;
     height: 100vh;
     background-color: #0066f5;
-    top: 90px;
+    top: 30px;
     left: -100%;
     text-align: left;
     flex-direction: column;
     margin-left: 0;
     transition: all 0.5s;
     display: block;
+    z-index: 2;
   }
   .mainlist > li > a {
     color: white;
@@ -1135,7 +1138,7 @@ input{
   }
   .sublist {
     display: none;
-    background-color: #fff;
+    /* background-color: #fff;
     gap: 1rem;
     width: max-content;
     height: max-content;
@@ -1143,9 +1146,15 @@ input{
     position: absolute;
     padding: 1.2rem 1rem;
     top: 10rem;
-    left: 0;
+    left: 0; */
   }
-  #check:checked ~ .mainlist {
+  .sublist1{
+    display: none;
+  }
+  .sublist2{
+    display: none;
+  }
+  .checkbtn:checked ~ .mainlist {
     left: 0;
   }
   
@@ -1199,8 +1208,9 @@ background-color: rgb(244, 229, 210);
   margin-top: 100px;
   position: absolute;
   height: 600px;
-  margin-left: -10px;
+  margin-left: -4px;
   width: 400px;
+  overflow: hidden;
 }
 .testimony img{
   position: relative;
@@ -1208,12 +1218,12 @@ background-color: rgb(244, 229, 210);
   overflow: hidden;
 }
 .wura{
-  width: 300px;
-  height: 270px;
+  width: 310px;
+  height: 240px;
   background-color: #fff;
   position: absolute;
-  margin-top: -420px;
-  margin-left: 75px;
+  margin-top: -400px;
+  margin-left: 65px;
   padding: 10px;
   font-size: 1.1rem;
   color: #6c82a3;
@@ -1267,7 +1277,7 @@ background-color: rgb(244, 229, 210);
   display: block;
 }
 .image1{
-  margin-left: 40px;
+  margin-left: 20px;
   margin-bottom: 40px;
   width: 300px;
   height: 650px;
