@@ -1198,7 +1198,7 @@ margin-left:5px;
 .testimony{
   margin-top: 100px;
 height: 800px;
-width: 300px;
+width: 280px;
 background-color: rgb(244, 229, 210);
 }
 .testimony video{
@@ -1206,7 +1206,7 @@ background-color: rgb(244, 229, 210);
   position: absolute;
   height: 600px;
   margin-left: -4px;
-  width: 400px;
+  width: 370px;
   overflow: hidden;
 }
 .testimony img{
@@ -1220,7 +1220,7 @@ background-color: rgb(244, 229, 210);
   background-color: #fff;
   position: absolute;
   margin-top: -400px;
-  margin-left: 65px;
+  margin-left: 50px;
   padding: 10px;
   font-size: 1.1rem;
   color: #6c82a3;
@@ -1274,7 +1274,7 @@ background-color: rgb(244, 229, 210);
   display: block;
 }
 .image1{
-  margin-left: 20px;
+  margin-left: 5px;
   margin-bottom: 40px;
   width: 300px;
   height: 650px;
