@@ -157,6 +157,9 @@ header {
   display: flex;
   justify-content: space-between;
 }
+#app{
+  display: none;
+}
 .testimony{
 margin-top: 80px;
 height: 900px;
@@ -1182,6 +1185,7 @@ margin-left:-180px;
   margin-top: 50px;
   border: 1px solid rgba(8, 37, 82, 0.3);
   padding: 10px;
+  display: none;
 }
 .cta button{
   background-color: #0066f5;
@@ -1191,7 +1195,7 @@ margin-left:-180px;
   margin-left: 20px;
   border: none;
   border-radius: 10px;
-  display: block;
+  display: none;
 }
 .cta1{
   display: none;
@@ -1236,20 +1240,33 @@ margin-top: 20px;
   color: #6c82a3;
   overflow: hidden;
 }
+#app{
+  display: block;
+  width: 100%;
+  margin-left: 200px;
+  margin-top: 15px;
+}
 
 .journey{
   display: block;
 }
+.rich{
+  width: 100%;
+}
 .rich h1{
-  font-size: 3.5rem;
+  font-size: 3.3rem;
+}
+.rich p{
+  font-size: 1.5rem;
 }
 .rich button{
   font-size: 1rem;
   padding: 10px;
 }
 #shape{
-  width: 70%;
-  margin: 0 40px;
+  width: 80%;
+  margin: 40px;
+  height: 300px;
 }
 .build, .invest, .stay, #one, #two, .one, .two{
  display: none;
@@ -1432,7 +1449,7 @@ margin-top: 20px;
 }
 #free{
   font-size: 2rem;
-  padding: 10px;
+  margin-left: -30px;
 }
 input{
   padding: 15px;
@@ -1440,12 +1457,17 @@ input{
   margin-left: 30px;
   margin-bottom: 30px;
   border-radius: 10px;
+  display: block;
 }
 #mail{
   display: none;
 }
+#email{
+  display: block;
+  margin-left: -25px;
+}
 #btn{
-  display: none;
+  display: block;
 }
 .btn{
   display: block;
@@ -1456,8 +1478,8 @@ input{
   color: #082552;
   font-size: 20px;
   font-weight: 500;
-  margin: auto;
-   margin-left: 30px;
+  /* margin: auto; */
+   margin-left: -20px;
 }
 .btn:hover{
   background-color: #082552;
